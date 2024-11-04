@@ -1,55 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-    <title>Document</title>
-    <style>      
-    div
-    {
-    background-color: rgb(242, 249, 255);
-    width:300px;
-    height: 300px;
-    padding:40px;
-    border: 7px solid #4c7dd7;
-    margin: 30px;    
+    <meta charset="UTF-8">
+    <title>퍼스널컬러별 분석</title>
+    <style>
+
+        #학번이름 {
+                position: absolute;
+                top: 70px;
+                right: 20px;
+                font-size: 1.2em;
+                font-weight: bold;
+                background-color: white;
+            }
+        header {
+            background-color: rgb(255, 235, 240);
+            border: 3px solid rgb(236, 243, 255);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+            
+        #퍼컬소개{
+        text-align: center;
+        background-color: rgb(255, 252, 225);
+        border: 3px solid rgb(236, 243, 255);
     }
-    #n3:hover{opacity: 0.6;}
-    
-.sub{
-        background-color: rgb(255, 201, 244);
-    position: relative;
-    top: 10px;
-    left: 30px;
+     
+
+    #유튜버{
+        background-color: rgb(255, 252, 225);
+        width: 200px;
+        position: absolute;
+        border: 3px solid rgb(236, 243, 255);
     }
-#fix{
-    position: fixed;
-    bottom:150px;
-    right:150px;
+    #깨알상식{
+        background-color: rgb(255, 252, 225);
+        width: 200px;
+        position: absolute;
+        border: 3px solid rgb(236, 243, 255);
+        right: 20px;
     }
-#float{
-    position: fixed;
-    left:350px; 
-    width: 300px;
-    height:300px;   
-    } 
+    #spring{
+        display: block;
+        width: 70%; 
+        height: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 0 auto;
+        text-align: center;
+        text-shadow: 3px 3px rgb(250, 248, 248);
+        background-color: rgb(255, 223, 217);
+    }
+
+    #summer{
+        display: block;
+        width: 70%; 
+        height: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 0 auto;
+        text-align: center;
+        text-shadow: 3px 3px rgb(250, 248, 248);
+        background-color: rgb(232, 251, 255);
+    }
+    #autumn{
+            display: block;
+            width: 70%; 
+        height: 300px;
+            border: 3px solid rgb(0, 0, 0);
+            margin: 0 auto;
+            text-align: center;
+            text-shadow: 3px 3px rgb(250, 248, 248);
+            background-color: rgb(228, 171, 141);
+    }
+    #winter{    
+       display: block;
+       width: 70%; 
+       height: 300px;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 0 auto;
+        text-align: center;
+        text-shadow: 3px 3px rgb(255, 115, 255);
+        background-color: rgb(255, 152, 241);
+    }
     </style>
 </head>
 
 <body>
-    div 태그 (인라인-블록)<br>
-    <div>DIV1
-        <h1> 마진 테두리 패딩 연습</h1>
-        <li>margin: 테두리 바깥쪽 여백
-        <li> padding: 내용과 테두리 사이의 영역
-        <li> border: 경계
-    </div>
-    <div style="background-color: yellow;" id="fix">DIV2</div>
-    <div id="n3">DIV3</div>
-    <div class="sub">DIV4</div>
-    <div>DIV5</div>
-    <div id="fix">DIV6</div>
-    <div id="float">DIV7
-        <img src="tws.jpg" alt="tws"> 
-    </div>
+<header>
+    <h1>퍼스널컬러 분석</h1></div>
+</header>
+<div id="학번이름">202400629 이나경</div>
+<div id="퍼컬소개">
+    <dd>
+        <h3>퍼스널 컬러 정의</h3>
+    </dd>
+    <dt>
+        개인의 피부톤, 머리색, 눈색 등에 따라 어울리는 색상을 판별하는 분석 기법으로, 이를 기반으로 어울리는 메이크업,옷,헤어 등을 선택하는 데 도움을 준다. 
+    </dt>
+</div>
+
+<nav>        
+    <h2>
+        <li><a href="#spring">봄 웜톤(spring warm)</a><br>
+        <li><a href="#summer">여름 쿨톤(summer cool)</a><br> 
+        <li><a href="#autumn">가을 웜톤(autumn warm)</a><br>
+        <li><a href="#winter">겨울 쿨톤(winter cool)</a><br>
+    </h2>
+</nav>
+
+<aside id="깨알상식">
+<p> Q.피부가 타면 퍼컬이 바뀔까요? <br>
+A.태닝을 하지 않는 한 거의 바뀌지 않습니다.</p>
+
+<P>Q.채도는 뭔가요? <br>
+A.채도는 색의 많고 적음을 의미합니다.</P>
+
+<P>Q.명도는 뭔가요?<br>
+    A.명도는 색의 밝고 어두움을 의미합니다.</P>
+    
+    <P>Q.피부가 어두우면 웜톤인가요?<br>
+    A.</P>
+       
+    <P>Q.피부가 누렇다면 웜톤인가요?<br>
+    A.</P>
+                    
+</aside>
+<aside id="유튜버">
+   <p> <h3>퍼컬 분석 유튜버 추천</h3>
+    1. <a href="먼지나방">먼지나방 <br><br></a>
+    2. <a href="예영이예영">예영이예영 <br><br></a>
+    3. <a href="디오드뷰티">디오드뷰티 <br><br></a>
+    4. <a href="컬러요정, 원더은아">컬러요정, 원더은아 <br><br></a>
+
+    <p><h3>봄웜 유튜버 추천</h3>
+    1.<a href="오션">오션  <br><br></a>
+    2.<a href="다예"> 다예<br><br></a>
+    3.<a href="윤이든">윤이든 <br><br></p></a>
+
+    <p><h3>여쿨 유튜버 추천</h3>
+    1. <a href="여1">여1<br><br></a>
+    2. <a href="여2">여2<br><br></a>
+    3. <a href="여3">여3<br><br></p></a>
+
+    <p><h3>갈웜 유튜버 추천</h3>
+    1. <a href="안다">안다<br><br></a>
+    2. <a href="갈2">갈2<br><br></a>
+    3. <a href="갈3">갈3<br><br></p></a>
+
+    <p><h3>겨쿨 유튜버 추천</h3>
+    1. <a href="배령">배령<br><br></a></a>
+    2. <a href="겨2">겨2<br><br></a>
+    3. <a href="겨3">겨3<br><br></p></a>
+</aside>
+<section id="spring">
+    <h2>봄 웜톤(spring warm)</h2>
+    <ul><h3>   
+        <strong><p><li>특징</li> </p> 
+        <p><li>메이크업</li></p>
+        <p><li>헤어 및 코디</li></p>
+    </strong></ul></h3>
+</section>
+<section id="summer">
+    <h2>여름 쿨톤(summer cool)</h2>
+    <ul><h3>   
+        <strong><p><li>특징</li> </p> 
+        <p><li>메이크업</li></p>
+        <p><li>헤어 및 코디</li></p>
+    </strong></ul></h3>
+</section>
+<section id="autumn">
+    <h2>가을 웜톤(autumn warm)</h2>
+    <ul><h3>   
+        <strong><p><li>특징</li> </p> 
+        <p><li>메이크업</li></p>
+        <p><li>헤어 및 코디</li></p>
+    </strong></ul></h3>
+</section>
+<section id="winter">
+    <h2>겨울 쿨톤(winter cool)</h2>
+    <ul><h3>   
+        <strong><p><li>특징</li> </p> 
+        <p><li>메이크업</li></p>
+        <p><li>헤어 및 코디</li></p>
+    </strong></ul></h3>
+</section>
 </body>
 </html>
 
