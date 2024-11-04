@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>      
+    div
+    {
+    background-color: rgb(242, 249, 255);
+    width:300px;
+    height: 300px;
+    padding:40px;
+    border: 7px solid #4c7dd7;
+    margin: 30px;    
+    }
+    #n3:hover{opacity: 0.6;}
+    
+.sub{
+        background-color: rgb(255, 201, 244);
+    position: relative;
+    top: 10px;
+    left: 30px;
+    }
+#fix{
+    position: fixed;
+    bottom:150px;
+    right:150px;
+    }
+#float{
+    position: fixed;
+    left:350px; 
+    width: 300px;
+    height:300px;   
+    } 
+    </style>
+</head>
+
+<body>
+    div 태그 (인라인-블록)<br>
+    <div>DIV1
+        <h1> 마진 테두리 패딩 연습</h1>
+        <li>margin: 테두리 바깥쪽 여백
+        <li> padding: 내용과 테두리 사이의 영역
+        <li> border: 경계
+    </div>
+    <div style="background-color: yellow;" id="fix">DIV2</div>
+    <div id="n3">DIV3</div>
+    <div class="sub">DIV4</div>
+    <div>DIV5</div>
+    <div id="fix">DIV6</div>
+    <div id="float">DIV7
+        <img src="tws.jpg" alt="tws"> 
+    </div>
+</body>
+</html>
+
