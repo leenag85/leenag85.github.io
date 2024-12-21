@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자가진단 체크리스트</title>
+    <style>
+        #주의사항{
+            background-color: rgb(233, 148, 148)
+            ;
+            margin-bottom: 20px;
+        }
+
+        #자가진단 {
+        margin-top: 20px;
+        background-color: grey;  */
+        color: white;  
+        padding: 20px;  
+        margin: auto; 
+        margin-bottom: 20px;
+    }
+    #결과 h1 { background-color: rgb(255, 255, 255);
+    }
+    #결과 h2 { text-align: center;
+    }
+    #결과 {
+        background-color: grey;
+    }
+    </style>
+     <script>
+        alert("맨 위 '주의사항'을 꼭 읽은 후 진행해주세요.")
+    </script>
+</head>
+<body>
+    <header id=주의사항> <h1> 주의사항!</h1>
+    <h2><li>색감이 있는 전등 밑에서는 진행하지 말아주세요. 노랑, 파랑빛에서는 정확한 진단이 어렵습니다. <br><br>
+    <li>민낯인 상태에서 진행해주세요. 렌즈, 화장, 립 제품은 정확한 진단을 하기 어렵습니다. 세수 후, 기초제품만 바르고 진행해주세요. <br><br>
+    <li>염색하지 고않은 상태에서 진행해주세요. 본인의 자연모 상태에서 진행해야 가장 정확한 진단을 할 수 있습니다. <br><br>
+    <li> 평소 본인이 잘 사용하던 화장품, 옷을 가져와주세요. 정확한 진단에 도움이 될 수 있습니다. <br><br>
+    <li>상대적으로 더 가깝다 생각하는 것에 체크해주세요.<br><br>
+    <li> 종이에 해당하는 알파벳을 적어놔주세요. </h2>
+    </header>
+
+    <section id="자가진단">
+       
+     <h1 id="자가진단제목">자가진단 체크리스트</h1>
+     <br>  <h2>해당되는 부분에 체크 후, '테스트 결과 확인' 버튼을 눌러주세요. </h2>
+        <h3> 본인에게 더 가까운 헤어컬러를 선택해주세요. </h3><hr>
+        <form name="헤어컬러">
+            <h3><input type="radio" name="hair" value="1"> a. 흑색이나 짙은 고동색
+            <input type="radio" name="hair" value="2"> b. 갈색, 붉은 계열</h3>
+        </form>
+
+        <h3> 본인에게 더 가까운 피부색을 선택해주세요. 얼굴도 가능하고, 피부가 잘 타지 않는 팔 안쪽도 가능합니다. </h3><hr>
+        <form name="피부색">
+            <h3><input type="radio" name="skin" value="1">  a. 갈색이고 노란빛을 띈다
+            <input type="radio" name="skin" value="2"> b. 붉은빛을 띄고 홍조가 잘 보인다.</h3>
+        </form>
+
+        <h3> 더 잘 어울리는 악세서리를 선택해주세요. </h3><hr>
+        <form name="악세서리">
+            <h3><input type="radio" name="accessory" value="1"> a. 골드나 로즈골드의 따뜻한 계열
+            <input type="radio" name="accessory" value="2"> b. 실버이나 흰색의 차가운 계열</h3>
+        </form>
+
+        <h3> 주로 입는 옷들의 색감을 확인해주세요. </h3><hr>
+        <form name="옷">
+            <h3><input type="radio" name="clothes" value="1">  a. 노란빛이 도는 옷
+            <input type="radio" name="clothes" value="2"> b. 푸른빛이 도는 옷
+        </form>
+
+            <h3> 자신에게 어울리는 색조를 골라주세요. </h3><hr>
+        <form name="옷">
+            <h3><input type="radio" name="makeup" value="1">  a. 갈색, 오렌지 빛 색조
+            <input type="radio" name="makeup" value="2"> b. 핑크, 보라색 계열 <br>
+        </form>
+        
+    </section>          
+
+<section id="결과">
+    <details>
+        <summary>
+            <h1>테스트 결과를 확인</h1>
+        </summary>
+    <h2>a가 3개 이상이라면 웜톤</h2> 
+    <img src="웜톤.jpg.jpg" width="250px" height="300px" alt="웜톤색차트">
+        <img src="갈웜.jpg" width="250px" height="300px" alt="갈웜"> 
+        <img src="봄원윈터.jpg" width="250px" height="300px" alt="봄웜">
+        <img src="봄웜아이유.jpg" width="250px" height="300px" alt="봄웜"> <br><br>
+    <h2>a 2개 이하라면 쿨톤</h2> <img src="쿨톤.jpg.jpg" width="250px" height="300px" alt="쿨톤색차트">
+    <img src="여뮽.jpg" width="250px" height="300px" alt="여뮽"> 
+    <img src="여쿨.jpg" width="250px" height="300px" alt="여쿨">
+    <img src="겨쿨.jpg" width="250px" height="300px" alt="겨쿨"> </details>
+</section>
+</body>
+</html>
