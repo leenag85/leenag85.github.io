@@ -30,10 +30,10 @@
     #깨알상식{
         margin-top: 20px;
         background-color: rgb(255, 252, 225);
-        width: 250px;
+        width: 200px;
         position: absolute;
         border: 5px solid rgb(236, 243, 255);
-        right: 20px;
+        right: 10px;
     }
     ul {
     list-style-type: none;  /* 리스트 항목의 기호 제거 */
@@ -41,7 +41,7 @@
     section{
     
         display: block;
-        width: 80%; 
+        width: 75%; 
         height: 550px;
         border: 3px solid rgb(0, 0, 0);
         margin: 0 auto;
