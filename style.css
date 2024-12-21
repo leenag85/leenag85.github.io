@@ -1,0 +1,87 @@
+
+    #학번이름 {
+                position: absolute;
+                top: 70px;
+                right: 20px;
+                font-size: 1.2em;
+                font-weight: bold;
+                background-color: white;
+            }
+    header {
+            background-color: rgb(255, 235, 240);
+            border: 3px solid rgb(236, 243, 255);
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }          
+    #퍼컬소개{
+        text-align: center;
+        background-color: rgb(255, 252, 225);
+        border: 3px solid rgb(236, 243, 255);
+    }
+    #유튜버{
+        margin-top: 20px;
+        background-color: rgb(255, 252, 225);
+        width: 250;
+        position: absolute;
+        border: 5px solid rgb(236, 243, 255);
+    }
+    #깨알상식{
+        margin-top: 20px;
+        background-color: rgb(255, 252, 225);
+        width: 250px;
+        position: absolute;
+        border: 5px solid rgb(236, 243, 255);
+        right: 20px;
+    }
+    ul {
+    list-style-type: none;  /* 리스트 항목의 기호 제거 */
+    }
+    section{
+    
+        display: block;
+        width: 80%; 
+        height: 550px;
+        border: 3px solid rgb(0, 0, 0);
+        margin: 0 auto;
+        text-align: center;
+    }
+    #spring{
+        background-color: rgb(255, 223, 217);
+    }
+    #summer{
+        background-color: rgb(232, 251, 255);
+    }
+    #autumn{
+        background-color: rgb(211, 172, 151);
+    }
+    #winter{    
+        background-color: rgb(66, 66, 111);
+    }
+    nav {
+        display: flex;
+        background-color: rgb(255, 252, 225);
+        border: 3px solid rgb(236, 243, 255);
+        padding: 10px;
+        margin-top: 20px;
+    }
+    nav h2 {
+        display: flex;
+        gap: 20px;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%; 
+    }
+    nav h2 li {
+        display: inline-block;
+    }
+    nav h2 li a {
+        text-decoration: none;
+        color: black;
+    }
+    nav h2 li a:hover {
+        color: rgb(255, 115, 255);
+    }
